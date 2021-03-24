@@ -18,13 +18,13 @@ function bmi() {
   bmiOutput();
 
   if (bmi < 18.5) {
-    output2.textContent = "Underweight";
+    output2.textContent = "You are underweight";
   } else if (bmi < 25) {
-    output2.textContent = "Normal Weight";
+    output2.textContent = "You have a normal weight";
   } else if (bmi < 30) {
-    output2.textContent = "Overweight";
+    output2.textContent = "You are overweight";
   } else if (bmi >= 30) {
-    output2.textContent = "Obesity";
+    output2.textContent = "You are obese";
   } else {
     output2.textContent = "Please check your Height and Weight";
   }
