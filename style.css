@@ -1,0 +1,21 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  background-color: #5f939a;
+  color: #1b2021;
+  text-align: center;
+}
+
+h1 {
+  color: #eac8af;
+}
+
+.btn,
+.btn:hover {
+  background-color: #d8ac9c;
+  color: #1b2021;
+  border-color: #1b2021;
+}
+
+.btn:hover {
+  background-color: #eac8af;
+}
