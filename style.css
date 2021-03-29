@@ -1,7 +1,7 @@
 body {
   font-family: "Bebas Neue", cursive;
-  background-color: #5f939a;
-  color: #1b2021;
+  background-color: #1b2021;
+  color: #eac8af;
   text-align: center;
 }
 
@@ -9,11 +9,17 @@ h1 {
   color: #eac8af;
 }
 
+input {
+  color: #5f939a;
+  font-size: 2em;
+}
+
 .btn,
 .btn:hover {
   background-color: #d8ac9c;
   color: #1b2021;
   border-color: #1b2021;
+  font-size: 2em;
 }
 
 .btn:hover {
