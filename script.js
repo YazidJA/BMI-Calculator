@@ -31,3 +31,8 @@ function bmi() {
 }
 
 btn.addEventListener("click", bmi);
+document.addEventListener("keypress", function (e) {
+  if (e.key === "Enter" || "Space") {
+    bmi()
+  }
+});
